@@ -14,11 +14,11 @@ Average Score % (Grade)          | 82.5% (B-)
 
 
 *   [How to Do This Assignment](#how-to-do-this-assignment)
-    *   [Phase 0: Requirements Analysis](#phase-0-requirements-analysis)
-    *   [Phase 1: Design](#phase-1-design)
-    *   [Phase 2: Implementation](#phase-2-implementation)
-    *   [Phase 3: Testing and Debugging](#phase-3-testing-and-debugging)
-    *   [Phase 4: Deployment](#phase-4-deployment)
+    *   [Phase 0: Requirements Analysis](#phase-0-requirements-analysis-tag-name-analyzed)
+    *   [Phase 1: Design](#phase-1-design-tag-name-designed)
+    *   [Phase 2: Implementation](#phase-2-implementation-tag-name-implemented)
+    *   [Phase 3: Testing and Debugging](#phase-3-testing-and-debugging-tag-name-tested)
+    *   [Phase 4: Deployment](#phase-4-deployment-tag-name-deployed)
     *   [Phase 5: Maintenance](#phase-5-maintenance)
 *   [What We Look for When Grading](#what-we-look-for-when-grading)
 *   [Important Things to Watch Out For](#important-things-to-watch-out-for)
@@ -149,31 +149,31 @@ The following procedure is the best way for you to know what it will be like whe
 
 **Total points: 100**
 
-*   Shell Tutor Lessons are complete (10 points)
+*   Shell Tutor Lessons are complete **(10 points)**
     *   The file `shell-tutor/certificate.txt` is present
-*   Quality documentation (35 points)
+*   Quality documentation **(35 points)**
     *   Plan.md
         *   Each section filled out with a convincing level of detail
         *   The design phase has Pseudocode instead of real code that was copied from the source files
     *   Signature.md
         *   All development activities are accounted for
         *   Placeholder entries and TODO notes removed
-*   User Interface meets requirements (10 points)
+*   User Interface meets requirements **(10 points)**
     *   Error messages are appropriate
     *   `open()` is allowed to crash when the program is given a bad directory name
     *   Code does not contain hard-coded paths, and can be run from *any* directory
-*   `area-titles.csv` is processed in accordance with requirements (10 points)
+*   `area-titles.csv` is processed in accordance with requirements **(10 points)**
     *   This file is read one line at a time
     *   Its contents are stored in a dictionary
     *   Required FIPS areas are included; others are excluded
     *   File is closed after being read
-*   The Annual Single File CSV is processed according to requirements (20 points)
+*   The Annual Single File CSV is processed according to requirements **(20 points)**
     *   File is read one line at a time, and only one line of the file is stored in memory at a time
     *   Lines are skipped appropriately based on FIPS, industry and ownership codes
     *   Proper data conversion functions are used (no `eval()` allowed!)
     *   File is closed after being read
-*   The program finishes in a *reasonable* amount of time (5 points)
-*   Report output meets customer's requirements (10 points)
+*   The program finishes in a *reasonable* amount of time **(5 points)**
+*   Report output meets customer's requirements **(10 points)**
     *   Source file `report.py` is left unchanged
     *   Output matches the provided examples
         *   Information appears in the correct sections of the report
