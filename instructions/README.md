@@ -108,7 +108,7 @@ Average Score % (Grade)          | 82.5% (B-)
 *(30% of your effort)*
 
 0.  Run your program against all data sets.
-    *   Your submission will be graded with `USA_full` and a **special, crafted data set** that you do have not seen.
+    *   Your submission will be graded with `USA_full` and a **special, crafted data set** that you have not seen.
     *   To ensure that your program gets full marks, test it thoroughly!
 1.  Fill out **Phase 3** in Plan.md.
     *   Describe the tests cases you ran.
