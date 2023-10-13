@@ -1,0 +1,39 @@
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+<+>                     UNITED STATES OF AMERICA                     <+>
+<+>                    BUREAU OF LABOR STATISTICS                    <+>
+<+>             Quarterly Census of Employment and Wages             <+>
+<+>                 Annual Report For The Year 2022                  <+>
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+
+Statistics over all industries
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       29
+
+Total annual wages                   $101,012,234,502
+Area with maximum annual wages       Salt Lake County, Utah
+Maximum reported wages               $54,339,959,789
+
+Total number of establishments       132,189
+Area with most establishments        Salt Lake County, Utah
+Maximum # of establishments          62,715
+
+Total annual employment level        1,651,243
+Area with maximum employment         Salt Lake County, Utah
+Maximum reported employment level    771,216
+
+
+Statistics over the software publishing industry
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       22
+
+Total annual wages                   $2,639,939,083
+Area with maximum annual wages       Salt Lake County, Utah
+Maximum reported wages               $1,345,614,865
+
+Total number of establishments       2,158
+Area with most establishments        Salt Lake County, Utah
+Maximum # of establishments          1,484
+
+Total annual employment level        18,041
+Area with maximum employment         Salt Lake County, Utah
+Maximum reported employment level    9,258

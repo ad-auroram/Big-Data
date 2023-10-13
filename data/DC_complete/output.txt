@@ -1,0 +1,39 @@
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+<+>                     UNITED STATES OF AMERICA                     <+>
+<+>                    BUREAU OF LABOR STATISTICS                    <+>
+<+>             Quarterly Census of Employment and Wages             <+>
+<+>                 Annual Report For The Year 2022                  <+>
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+
+Statistics over all industries
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       2
+
+Total annual wages                   $85,292,017,491
+Area with maximum annual wages       District of Columbia
+Maximum reported wages               $85,280,312,095
+
+Total number of establishments       48,564
+Area with most establishments        District of Columbia
+Maximum # of establishments          48,548
+
+Total annual employment level        748,737
+Area with maximum employment         District of Columbia
+Maximum reported employment level    748,663
+
+
+Statistics over the software publishing industry
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       1
+
+Total annual wages                   $474,703,234
+Area with maximum annual wages       District of Columbia
+Maximum reported wages               $474,703,234
+
+Total number of establishments       450
+Area with most establishments        District of Columbia
+Maximum # of establishments          450
+
+Total annual employment level        1,998
+Area with maximum employment         District of Columbia
+Maximum reported employment level    1,998

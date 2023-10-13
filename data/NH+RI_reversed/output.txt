@@ -1,0 +1,39 @@
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+<+>                     UNITED STATES OF AMERICA                     <+>
+<+>                    BUREAU OF LABOR STATISTICS                    <+>
+<+>             Quarterly Census of Employment and Wages             <+>
+<+>                 Annual Report For The Year 2022                  <+>
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+
+Statistics over all industries
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       17
+
+Total annual wages                   $79,499,836,981
+Area with maximum annual wages       Providence County, Rhode Island
+Maximum reported wages               $18,626,678,821
+
+Total number of establishments       108,645
+Area with most establishments        Providence County, Rhode Island
+Maximum # of establishments          22,291
+
+Total annual employment level        1,151,987
+Area with maximum employment         Providence County, Rhode Island
+Maximum reported employment level    282,632
+
+
+Statistics over the software publishing industry
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       16
+
+Total annual wages                   $848,999,509
+Area with maximum annual wages       Hillsborough County, New Hampshire
+Maximum reported wages               $284,651,029
+
+Total number of establishments       806
+Area with most establishments        Unknown Or Undefined, New Hampshire
+Maximum # of establishments          303
+
+Total annual employment level        4,766
+Area with maximum employment         Hillsborough County, New Hampshire
+Maximum reported employment level    1,749

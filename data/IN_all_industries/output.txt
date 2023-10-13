@@ -1,0 +1,39 @@
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+<+>                     UNITED STATES OF AMERICA                     <+>
+<+>                    BUREAU OF LABOR STATISTICS                    <+>
+<+>             Quarterly Census of Employment and Wages             <+>
+<+>                 Annual Report For The Year 2022                  <+>
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+
+Statistics over all industries
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       93
+
+Total annual wages                   $180,739,411,695
+Area with maximum annual wages       Marion County, Indiana
+Maximum reported wages               $42,766,021,296
+
+Total number of establishments       186,198
+Area with most establishments        Marion County, Indiana
+Maximum # of establishments          27,058
+
+Total annual employment level        3,113,422
+Area with maximum employment         Marion County, Indiana
+Maximum reported employment level    607,919
+
+
+Statistics over the software publishing industry
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       0
+
+Total annual wages                   $0
+Area with maximum annual wages       
+Maximum reported wages               $0
+
+Total number of establishments       0
+Area with most establishments        
+Maximum # of establishments          0
+
+Total annual employment level        0
+Area with maximum employment         
+Maximum reported employment level    0

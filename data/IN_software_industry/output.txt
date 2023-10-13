@@ -1,0 +1,39 @@
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+<+>                     UNITED STATES OF AMERICA                     <+>
+<+>                    BUREAU OF LABOR STATISTICS                    <+>
+<+>             Quarterly Census of Employment and Wages             <+>
+<+>                 Annual Report For The Year 2022                  <+>
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+
+Statistics over all industries
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       0
+
+Total annual wages                   $0
+Area with maximum annual wages       
+Maximum reported wages               $0
+
+Total number of establishments       0
+Area with most establishments        
+Maximum # of establishments          0
+
+Total annual employment level        0
+Area with maximum employment         
+Maximum reported employment level    0
+
+
+Statistics over the software publishing industry
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Number of FIPS areas in report       54
+
+Total annual wages                   $296,761,040
+Area with maximum annual wages       Unknown Or Undefined, Indiana
+Maximum reported wages               $127,418,812
+
+Total number of establishments       643
+Area with most establishments        Unknown Or Undefined, Indiana
+Maximum # of establishments          335
+
+Total annual employment level        2,277
+Area with maximum employment         Unknown Or Undefined, Indiana
+Maximum reported employment level    808
