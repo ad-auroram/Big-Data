@@ -10,13 +10,34 @@ Deliver:
 *   [ ] Re-write the instructions in your own words.
     *   If you don't do this, you won't know what you're supposed to do!
     *   Don't leave out details!
+    
+Write a python code that takes data from the Bureau of Labor Statistics' Quarterly Census of Employment and Wages (formatted in a CSV file)
+and summarizes it in a nice easy to read report.
+
 *   [ ] Explain the problem this program aims to solve.
     *   Describe what a *good* solution looks like.
     *   List what you already know how to do.
     *   Point out any challenges that you can foresee.
+
+A good solution will pass any provided unit tests, as well as any other test cases I design. It will be able to run through all the provided data and identify the 
+relevant pieces of info.
+
+***Things I know:***
+  * How to open and read files
+  * Making a dictionary (probably)
+
+***Things I don't know yet:***
+
+
 *   [ ] List all of the data that is used by the program, making note of where it comes from.
     *   Explain what form the output will take.
+
+The program uses a CSV file of the data, the output will take the form of a formatted report with a print() statement. 
+Said statement is in a function that takes info from other modules (industry_data).
 *   [ ] List the algorithms that will be used (but don't write them yet).
+
+A dictionary containing the relevant records (based on FIPS codes) will be the main part.
+
 *   [ ] **Tag** the last commit in this phase `analyzed` and push it to GitLab.
     *   *Grace Points: if this tag is pushed by midnight on the Sunday before the due date, you will receive up to 5 points back*
 
