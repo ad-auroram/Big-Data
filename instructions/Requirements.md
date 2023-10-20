@@ -159,11 +159,11 @@ This class contains statistics for a single industry.
 *   Attributes
     *   `num_areas`: Integer, stores the number of areas in this part of the report.
     *   `total_annual_wages`: Integer, stores the total annual wages.
-    *   `max_annual_wage`: List, stores the area (a string) with the maximum annual wage and its value (an integer). Format: `[area, wage]`
-    *   `total_estab`: Integer, stores the total number of establishments.
-    *   `max_estab`: List, stores the area (a string) with the maximum number of establishments and its value (an integer). Format: `[area, num]`
-    *   `total_empl`: Integer, stores the total number of employees.
-    *   `max_empl`: List, stores the area (a string) with the maximum number of employees and its value (an integer). Format: `[area, num]`
+    *   `max_annual_wages`: List, stores the area (a string) with the maximum annual wage and its value (an integer). Format: `[area, wage]`
+    *   `total_estabs`: Integer, stores the total number of establishments.
+    *   `max_estabs`: List, stores the area (a string) with the maximum number of establishments and its value (an integer). Format: `[area, num]`
+    *   `total_emplvl`: Integer, stores the total number of employees.
+    *   `max_emplvl`: List, stores the area (a string) with the maximum number of employees and its value (an integer). Format: `[area, num]`
 *   The initializer `__init__(self)` doesn't require any parameters.
     *   This is because the object is designed to accumulate data incrementally over time.
     *   Since the final values aren't known when the object is created, there's no need to pass any initial values to the constructor.
