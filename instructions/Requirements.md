@@ -27,7 +27,7 @@ This assignment focuses on **Test Driven Development (TDD)**, which differs from
     *   Adjust the code to align with the tests, not the other way around.
     *   You are allowed, *but not required* to add more unit tests to the suite.
 * Avoid changing the *function signatures* in the starter code; simply fill in the functions' bodies.
-* After passing all unit tests, complete `main.py` to finalize the project.
+* After passing all unit tests, complete `big_data.py` to finalize the project.
     * For the final testing phase, use Unix text tools to generate datasets in `data/` for system tests.
     * Compare the program's output with the provided samples.
     * If all unit tests pass, the program's output should exactly match the samples.
