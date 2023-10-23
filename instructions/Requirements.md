@@ -173,7 +173,7 @@ This class contains statistics for a single industry.
 *   Method
     *   `add_record(self, record, areas)`
         *   Adds a record's data to the summary statistics.
-        *   This method does not need to validate it its input; the record must be validated before this method is called.
+        *   This method does not need to validate its input; the record must be validated before this method is called.
         *   Parameters:
             *   record: A record containing employment and wage data.
             *   areas: A dictionary mapping FIPS area codes to human-friendly area titles.
