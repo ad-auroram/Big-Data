@@ -25,8 +25,11 @@ relevant pieces of info.
 ***Things I know:***
   * How to open and read files
   * Making a dictionary (probably)
+  * Finding specific characters/values/strings within strings
 
 ***Things I don't know yet:***
+* splitting up strings the way I want them to be (lines in the dictionary)
+* don't really know much at all about dictionaries other than what we did in class
 
 
 *   [ ] List all of the data that is used by the program, making note of where it comes from.
