@@ -118,11 +118,11 @@ return list[11]
   * take the file area-titles and convert it to a dictionary
 ```commandline
 create dictionary areas
-file = open(area-titles)
+file = open(dirname/area-titles.csv)
 file.readline
 for line in file
     split into 2 fields
-    if fips code is valid
+    if fips code is valid (should be numerical and not end with 000)
         add to dictionary
 close file
 return areas
@@ -153,6 +153,10 @@ track area with max_empl
 ```
 
 ### big_data.py
+print usage message and exit if directory name isn't given
+call area_titles_to_dict with given directory (let it crash on its own if it fails)
+get data from 2022.annual.singlefile.csv and put it in the report dictionary
+
 
 ## Phase 2: Implementation (tag name `implemented`)
 *(15% of your effort)*
