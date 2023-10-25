@@ -63,6 +63,96 @@ Deliver:
 *   [ ] **Tag** the last commit in this phase `designed` and push it to GitLab.
     *   *Grace Points: if this tag is pushed by midnight on the Sunday before the due date, you will receive up to 5 points back*
 
+### util.py
+* record_matches_fips
+  * check record for valid FIPS areas
+```commandline
+if area in record:
+    return true
+```
+
+* record_is_all_industries
+  * check if record is about all industries
+```commandline
+if all industries code in records:
+    return true
+```
+
+* record_is_software_industry
+  * check if record is about software industry
+```commandline
+if software industry code in records:
+    return true
+```
+
+* get_fips
+  * take fips code from record
+```commandline
+list = split record along commas
+return list[0]
+```
+
+* get_estabs
+  * take average quarterly establishment counts
+```commandline
+list = split record along commas
+return list[9]
+```
+
+* get_emplvl
+  * take annual average of monthly employment levels
+```commandline
+list = split record along commas
+return list[10]
+```
+
+* get_wages
+  * take total of 4 quarterly wage levels
+```commandline
+list = split record along commas
+return list[11]
+```
+
+### area_titles.py
+* area_titles_to_dict
+  * take the file area-titles and convert it to a dictionary
+```commandline
+create dictionary areas
+file = open(area-titles)
+file.readline
+for line in file
+    split into 2 fields
+    if fips code is valid
+        add to dictionary
+close file
+return areas
+```
+
+### industry_data.py
+* all attributes under __init__ initialized to 0 or ""
+```commandline
+num_areas = 0
+total_annual_wages = 0
+max_annual_wage = ""
+total_estab = 0
+max_estab = ""
+total_empl = 0
+max_empl = ""
+#any strings become lists later
+```
+* add_record
+  * adds data from a record to summary statistics
+```commandline
+num_areas +=1
+add total annual wages
+track area with max annual wages
+total_estab += estab from record
+track area with max_estab
+total_empl += empl from record
+track area with max_empl
+```
+
+### big_data.py
 
 ## Phase 2: Implementation (tag name `implemented`)
 *(15% of your effort)*
