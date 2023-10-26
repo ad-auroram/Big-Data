@@ -26,9 +26,9 @@ def area_titles_to_dict(dirname):
     file = open(dirname+"/area-titles.csv")
     file.readline()
     for line in file:
-        line.rstrip("\n").split(",", 1)
-        fips = line[0]
-        if fips.isnumeric() and len(fips) == 5:
-            words = line.rstrip("\n").split("\t")
-            areas[words[0]] = words[1]
+        line = line.rstrip("\n").split(",", 1)
+        fips = line[0].strip("\"")
+        if fips.isnumeric() and len(fips) == 5 and not fips.endswith("000"):
+            areas[fips] = line[1]
     file.close()
+    return areas
