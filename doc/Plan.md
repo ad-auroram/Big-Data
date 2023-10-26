@@ -67,7 +67,7 @@ Deliver:
 * record_matches_fips
   * check record for valid FIPS areas
 ```commandline
-if area in record:
+if record is in areas:
     return true
 ```
 
@@ -168,6 +168,10 @@ Deliver:
 *   [ ] More or less working code.
 *   [ ] Note any relevant and interesting events that happened while you wrote the code.
     *   e.g. things you learned, things that didn't go according to plan.
+
+When returning values in util.py, I didn't realize I'd have to strip quotation marks off of strings, and I kept
+forgetting to convert things to int that needed converting.
+
 *   [ ] **Tag** the last commit in this phase `implemented` and push it to GitLab.
 
 
