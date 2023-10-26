@@ -172,6 +172,9 @@ Deliver:
 When returning values in util.py, I didn't realize I'd have to strip quotation marks off of strings, and I kept
 forgetting to convert things to int that needed converting.
 
+For area_titles, I learned about the endswith() function to check for statewide statistics and exclude them. 
+Once I figured that out, I referenced the dictionary demonstration in class and modeled this one after it, and it was smooth sailing from there.
+
 *   [ ] **Tag** the last commit in this phase `implemented` and push it to GitLab.
 
 
