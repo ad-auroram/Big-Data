@@ -9,5 +9,6 @@
 | October 24  | 1 hour     | Writing pseudocode for util.py, area_titles.py, and industry_data.py
 | October 25  | 1.75 hour  | Refining pseudocode and plans. End of Phase 1. Starting Phase 2 by writing util.py and starting on area_titles.py
 | October 26  | .75 hour   | Finished writing area_titles.py. Both modules written so far pass unit tests.
+| October 27  | .5 hour    | Writing industry_data.py.
 
-| TOTAL       | 5.75 hours | *Your TOTAL should agree with your daily entries*
+| TOTAL       | 6.25 hours | *Your TOTAL should agree with your daily entries*

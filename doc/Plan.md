@@ -156,7 +156,11 @@ track area with max_empl
 print usage message and exit if directory name isn't given
 call area_titles_to_dict with given directory (let it crash on its own if it fails)
 get data from 2022.annual.singlefile.csv and put it in the report dictionary
-
+```commandline
+for line in file
+    if fips in areas
+        add record to report
+```
 
 ## Phase 2: Implementation (tag name `implemented`)
 *(15% of your effort)*
@@ -175,6 +179,9 @@ forgetting to convert things to int that needed converting.
 For area_titles, I learned about the endswith() function to check for statewide statistics and exclude them. 
 Once I figured that out, I referenced the dictionary demonstration in class and modeled this one after it, and it was smooth sailing from there.
 
+industry_data.py originally had a lot more calls to util functions, but I replaced them by 
+defining variables with them at the beginning of the method, so then they'd be called once rather than multiple times.
+
 *   [ ] **Tag** the last commit in this phase `implemented` and push it to GitLab.
 
 
@@ -188,6 +195,10 @@ Deliver:
     *   For any bugs discovered, describe their cause and remedy.
     *   Write your test cases in plain language such that a non-coder could run them and replicate your experience.
 *   [ ] **Tag** the last commit in this phase `tested` and push it to GitLab.
+
+### Test 1: Unit Tests
+* Expected: should pass all tests
+#### Result: 
 
 
 ## Phase 4: Deployment (tag name `deployed`)
