@@ -17,7 +17,7 @@
 #                                  this software without specific prior written
 #                                  permission.
 
-from util import *
+from util import get_wages, get_estabs, get_emplvl
 
 
 class IndustryData:
@@ -27,7 +27,13 @@ class IndustryData:
     def __init__(self):
         # Study the instructions and the unit tests to discover
         # the names and types of the attributes
-        pass
+        self.num_areas = 0
+        self.total_annual_wages = 0
+        self.max_annual_wages = ""
+        self.total_estabs = 0
+        self.max_estabs = ""
+        self.total_emplvl = 0
+        self.max_emplvl = ""
 
     def add_record(self, record, areas):
         """
@@ -49,4 +55,11 @@ class IndustryData:
          - Calculates and accumulates the total employment level.
          - Keeps track of the area with the maximum employment level.
         """
-        pass
+        self.num_areas += 1
+        self.total_annual_wages += get_wages(record)
+        #track area with max annual wages
+        self.total_estabs += get_estabs(record)
+        #track max estabs
+        self.total_emplvl += get_emplvl(record)
+        #track max emplvl
+
