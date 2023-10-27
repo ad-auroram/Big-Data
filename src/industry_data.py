@@ -58,18 +58,21 @@ class IndustryData:
          - Calculates and accumulates the total employment level.
          - Keeps track of the area with the maximum employment level.
         """
-
+        fips = get_fips(record)
+        wages = get_wages(record)
+        estabs = get_estabs(record)
+        emplvl = get_emplvl(record)
         self.num_areas += 1
-        self.total_annual_wages += get_wages(record)
-        if get_wages(record)>self.currentMaxWages:
-            self.currentMaxWages = get_wages(record)
-            self.max_annual_wages = [areas[get_fips(record)], get_wages(record)]
-        self.total_estabs += get_estabs(record)
-        if get_estabs(record) > self.currentEstabs:
-            self.currentEstabs = get_estabs(record)
-            self.max_estabs = [areas[get_fips(record)], get_estabs(record)]
-        self.total_emplvl += get_emplvl(record)
-        if get_emplvl(record) > self.currentEmplvl:
-            self.currentEmplvl = get_emplvl(record)
-            self.max_emplvl = [areas[get_fips(record)], get_emplvl(record)]
+        self.total_annual_wages += wages
+        if wages >self.currentMaxWages:
+            self.currentMaxWages = wages
+            self.max_annual_wages = [areas[fips], wages]
+        self.total_estabs += estabs
+        if estabs > self.currentEstabs:
+            self.currentEstabs = estabs
+            self.max_estabs = [areas[fips], estabs]
+        self.total_emplvl += emplvl
+        if emplvl > self.currentEmplvl:
+            self.currentEmplvl = emplvl
+            self.max_emplvl = [areas[fips], emplvl]
 
