@@ -17,7 +17,7 @@
 #                                  this software without specific prior written
 #                                  permission.
 
-from util import get_wages, get_estabs, get_emplvl
+from util import get_wages, get_estabs, get_emplvl, get_fips
 
 
 class IndustryData:
@@ -34,6 +34,9 @@ class IndustryData:
         self.max_estabs = ""
         self.total_emplvl = 0
         self.max_emplvl = ""
+        self.currentMaxWages = 0
+        self.currentEstabs = 0
+        self.currentEmplvl = 0
 
     def add_record(self, record, areas):
         """
@@ -55,11 +58,18 @@ class IndustryData:
          - Calculates and accumulates the total employment level.
          - Keeps track of the area with the maximum employment level.
         """
+
         self.num_areas += 1
         self.total_annual_wages += get_wages(record)
-        #track area with max annual wages
+        if get_wages(record)>self.currentMaxWages:
+            self.currentMaxWages = get_wages(record)
+            self.max_annual_wages = [areas[get_fips(record)], get_wages(record)]
         self.total_estabs += get_estabs(record)
-        #track max estabs
+        if get_estabs(record) > self.currentEstabs:
+            self.currentEstabs = get_estabs(record)
+            self.max_estabs = [areas[get_fips(record)], get_estabs(record)]
         self.total_emplvl += get_emplvl(record)
-        #track max emplvl
+        if get_emplvl(record) > self.currentEmplvl:
+            self.currentEmplvl = get_emplvl(record)
+            self.max_emplvl = [areas[get_fips(record)], get_emplvl(record)]
 
