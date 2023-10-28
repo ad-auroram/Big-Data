@@ -250,15 +250,17 @@ $ python src/big_data.py data/USA_full
 
 Deliver:
 
-*   [ ] **Tag** the last commit in this phase `deployed` and push it to GitLab.
-*   [ ] Your repository is pushed to GitLab.
-*   [ ] **Verify** that your final commit was received by browsing to its project page on GitLab.
+*   [x] **Tag** the last commit in this phase `deployed` and push it to GitLab.
+*   [x] Your repository is pushed to GitLab.
+*   [x] **Verify** that your final commit was received by browsing to its project page on GitLab.
     *   Ensure the project's URL is correct.
     *   Look for all of the tags in the **Tags** tab.
+    
+    I forgot tags had a different command to be pushed, whoops. They're all there now.
     *   Review the project to ensure that all required files are present and in correct locations.
     *   Check that unwanted files have not been included.
     *   Make any final touches to documentation, including the Sprint Signature and this Plan.
-*   [ ] **Validate** that your submission is complete and correct by cloning it to a new location on your computer and re-running it.
+*   [x] **Validate** that your submission is complete and correct by cloning it to a new location on your computer and re-running it.
 	*	Run your program from the command line so you can see how it will behave when your grader runs it.  **Running it in PyCharm is not good enough!**
     *   Run through your test cases to avoid nasty surprises.
     *   Check that your documentation files are all present.
