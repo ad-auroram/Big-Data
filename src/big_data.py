@@ -43,13 +43,13 @@ file.readline()
 for line in file:
     if record_matches_fips(line, areas):
         if record_is_all_industries(line):
-            Report.all.add_record(line, areas)
+            Report().all.add_record(line, areas)
         elif record_is_software_industry(line):
-            Report.soft.add_record(line, areas)
+            Report().soft.add_record(line, areas)
 
 file.close()
 
-rpt = Report()
+rpt = Report(2022)
 rpt.all.num_areas           = 1337
 rpt.all.total_annual_wages  = 13333337
 rpt.all.max_annual_wages    = ["Trantor", 123456]

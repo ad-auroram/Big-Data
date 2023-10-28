@@ -182,6 +182,8 @@ Once I figured that out, I referenced the dictionary demonstration in class and 
 industry_data.py originally had a lot more calls to util functions, but I replaced them by 
 defining variables with them at the beginning of the method, so then they'd be called once rather than multiple times.
 
+I felt I had a good idea of how to approach big_data.py, but ran into a block when I couldn't quite remember how to call instances of a class in Python. I reviewed more and it worked.
+
 *   [ ] **Tag** the last commit in this phase `implemented` and push it to GitLab.
 
 
