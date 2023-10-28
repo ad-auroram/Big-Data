@@ -200,6 +200,9 @@ Deliver:
 *   [ ] **Tag** the last commit in this phase `tested` and push it to GitLab.
 
 ### Test 1: Unit Tests
+```commandline
+$ python run_tests.py
+```
 * Expected: should pass all tests
 #### Result: Pass
 
@@ -216,8 +219,31 @@ $ python src/big_data.py data/DC_complete
 ```
 * followed directions on the requirements page to create statistics for DC.
 * Output should match output.txt
-#### Result: realized I forgot to delete print statements. also need to actually assign values.
+#### Result: realized I forgot to delete print statements. Forgot to split line before passing to methods.
+#### Take 2: Passed expect for quotation marks around location name.
+#### Take 3: Passed.
 
+### Test 4: Invalid directory
+```commandline
+$ python src/big_data.py data/boo
+```
+* Expected: should return a "no such file or directory" error
+#### Result: Passed
+
+### Test 5: Utah reversed
+```commandline
+$ python src/big_data.py data/UT_reversed
+```
+* Followed directions in README to create dataset
+* Output should match output.txt
+#### Result: Passed
+
+### Test 6: USA_full
+```commandline
+$ python src/big_data.py data/USA_full
+```
+* Expected: Output should match output.txt. The benchmark test says it should finish in under 18.28 seconds on my computer. 
+#### Result: Passed! (in 6.4 seconds)
 
 ## Phase 4: Deployment (tag name `deployed`)
 *(5% of your effort)*

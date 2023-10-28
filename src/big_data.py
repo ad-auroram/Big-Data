@@ -50,8 +50,6 @@ file.close()
 
 
 
-
-
 after = time.time()
 print(f"Done in {after - before:.3f} seconds!", file=sys.stderr)
 
