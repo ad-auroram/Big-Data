@@ -29,11 +29,11 @@ class IndustryData:
         # the names and types of the attributes
         self.num_areas = 0
         self.total_annual_wages = 0
-        self.max_annual_wages = ""
+        self.max_annual_wages = ["", 0]
         self.total_estabs = 0
-        self.max_estabs = ""
+        self.max_estabs = ["", 0]
         self.total_emplvl = 0
-        self.max_emplvl = ""
+        self.max_emplvl = ["", 0]
         self.currentMaxWages = 0
         self.currentEstabs = 0
         self.currentEmplvl = 0
