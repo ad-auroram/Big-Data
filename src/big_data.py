@@ -27,16 +27,27 @@ from report import Report
 from util import record_matches_fips, record_is_all_industries, record_is_software_industry
 
 
-print("TODO: if sys.argv[1] is not given, print a usage message and exit")  # DELETE ME
+if sys.argv[1] == "":
+    print("Error: too few arguments. Directory name is required.")
+    sys.exit(2)
 
 print("Reading the databases...", file=sys.stderr)
 before = time.time()
 
-print("TODO: create a dictionary from 'sys.argv[1]/area-titles.csv'")  # DELETE ME
-print("TODO: if accessing 'sys.argv[1]/area-titles.csv' fails, let your program crash here")  # DELETE ME
-print("TODO: the FIPS dictionary should contain 3,463 pairs")  # DELETE ME
+areas = area_titles_to_dict(sys.argv[1])
 
 print("TODO: Fill in the report using information from 'sys.argv[1]/2022.annual.singlefile.csv'")  # DELETE ME
+
+file = open(sys.argv[1]+"/2022.annual.singlefile.csv")
+file.readline()
+for line in file:
+    if record_matches_fips(line, areas):
+        if record_is_all_industries(line):
+            Report.all.add_record(line, areas)
+        elif record_is_software_industry(line):
+            Report.soft.add_record(line, areas)
+
+file.close()
 
 rpt = Report()
 rpt.all.num_areas           = 1337
