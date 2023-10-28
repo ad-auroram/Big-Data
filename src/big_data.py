@@ -40,29 +40,16 @@ rpt = Report(2022)
 file = open(sys.argv[1]+"/2022.annual.singlefile.csv")
 file.readline()
 for line in file:
-    if record_matches_fips(line, areas):
-        if record_is_all_industries(line):
-            rpt.all.add_record(line, areas)
-        elif record_is_software_industry(line):
-            rpt.soft.add_record(line, areas)
+    if record_matches_fips(line.split(","), areas):
+        if record_is_all_industries(line.split(",")):
+            rpt.all.add_record(line.split(","), areas)
+        elif record_is_software_industry(line.split(",")):
+            rpt.soft.add_record(line.split(","), areas)
 
 file.close()
 
 
-rpt.all.num_areas           = 0
-rpt.all.total_annual_wages  = 13333337
-rpt.all.max_annual_wages    = ["e", 123456]
-rpt.all.total_estabs        = 42
-rpt.all.max_estabs          = ["e", 12]
-rpt.all.total_emplvl        = 987654
-rpt.all.max_emplvl          = ["e", 654]
-rpt.soft.num_areas          = 1010
-rpt.soft.total_annual_wages = 101001110111
-rpt.soft.max_annual_wages   = ["e", 110010001]
-rpt.soft.total_estabs       = 1110111
-rpt.soft.max_estabs         = ["e", 11000]
-rpt.soft.total_emplvl       = 100010011
-rpt.soft.max_emplvl         = ["e", 10110010]
+
 
 
 after = time.time()

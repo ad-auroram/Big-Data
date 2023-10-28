@@ -66,13 +66,13 @@ class IndustryData:
         self.total_annual_wages += wages
         if wages >self.currentMaxWages:
             self.currentMaxWages = wages
-            self.max_annual_wages = [areas[fips], wages]
+            self.max_annual_wages = [areas[fips].strip("\""), wages]
         self.total_estabs += estabs
         if estabs > self.currentEstabs:
             self.currentEstabs = estabs
-            self.max_estabs = [areas[fips], estabs]
+            self.max_estabs = [areas[fips].strip("\""), estabs]
         self.total_emplvl += emplvl
         if emplvl > self.currentEmplvl:
             self.currentEmplvl = emplvl
-            self.max_emplvl = [areas[fips], emplvl]
+            self.max_emplvl = [areas[fips].strip("\""), emplvl]
 
