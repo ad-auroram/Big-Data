@@ -272,17 +272,26 @@ Spend a few minutes writing thoughtful answers to these questions.  They are mea
 
 Deliver:
 
-*   [ ] Write brief and honest answers to these questions:
+*   [x] Write brief and honest answers to these questions:
     *   What parts of your program are sloppily written and hard to understand?
-        *   Are there parts of your program which you aren't quite sure how/why they work?
+  * I think I did a good job of keeping things pretty organized. I think I mostly eliminated unnecessary repetition,
+  though there was part of big_data.py itself where I split the line while passing it to each method instead of just splitting it once.
+
+  *   Are there parts of your program which you aren't quite sure how/why they work?
+  *   Not really, I think I have a good understanding of how everything fits together.
         *   If a bug is reported in a few months, how long would it take you to find the cause?
+        * Pretty quick (I hope)
     *   Will your documentation make sense to...
         *   ...anybody besides yourself?
+        * Hopefully
         *   ...yourself in six month's time?
+        * Yes
     *   How easy will it be to add a new feature to this program in a year?
+    * I'd assume it'd be pretty easy, depends on where. If it involves more classes I'll have to do more review.
     *   Will your program continue to work after upgrading...
         *   ...your computer's hardware?
         *   ...the operating system?
         *   ...to the next version of Python?
-*   [ ] Make one final commit and push your **completed** Software Development Plan to GitLab.
-*   [ ] Respond to the **Assignment Reflection Survey** on Canvas.
+        * I don't think I know enough to answer for sure but I think it'd probably still work.
+*   [x] Make one final commit and push your **completed** Software Development Plan to GitLab.
+*   [x] Respond to the **Assignment Reflection Survey** on Canvas.
