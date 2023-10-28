@@ -201,7 +201,22 @@ Deliver:
 
 ### Test 1: Unit Tests
 * Expected: should pass all tests
-#### Result: 
+#### Result: Pass
+
+### Test 2: No directory given
+```
+$ python src/big_data.py
+```
+* Expected: should return an error and exit
+#### Results: Pass
+
+### Test 3: DC_Complete
+```commandline
+$ python src/big_data.py data/DC_complete
+```
+* followed directions on the requirements page to create statistics for DC.
+* Output should match output.txt
+#### Result: realized I forgot to delete print statements. also need to actually assign values.
 
 
 ## Phase 4: Deployment (tag name `deployed`)
